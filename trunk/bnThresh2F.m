@@ -9,6 +9,7 @@ function [F,varF,nv] = bnThresh2F(M)
 % degraded at the next time point if they have no negative
 % (inhibitory) inputs.
 % ilya - 07/31/05
+% this is a test
 
 n = size(M,1);
 if n ~= size(M,2)
