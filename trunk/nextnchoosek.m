@@ -21,6 +21,7 @@ function I = nextnchoosek(I,N)
 % Modified:
 
 % Upper bounds for each element in I.
+% testing check-in by hector
 N = [N-length(I)+1:N];
 
 % Start to check I from right to left that whether or not its elements can be
